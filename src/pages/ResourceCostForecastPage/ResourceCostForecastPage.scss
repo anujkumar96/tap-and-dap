@@ -1,0 +1,28 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+div {
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .dropdown {
+    width: 100%;
+
+    .dropdown-toggle {
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}

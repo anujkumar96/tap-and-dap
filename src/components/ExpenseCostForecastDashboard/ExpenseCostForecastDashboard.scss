@@ -1,0 +1,22 @@
+
+.expense-card {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense-card .card-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.expense-card .card-text {
+  font-size: 16px;
+}

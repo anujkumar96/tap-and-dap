@@ -1,0 +1,28 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}

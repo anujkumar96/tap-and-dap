@@ -1,0 +1,23 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+.collection-actuals-form {
+  max-width: 400px;
+  margin: 0 auto;
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}

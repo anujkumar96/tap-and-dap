@@ -1,0 +1,26 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+button {
+  margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+
+// MyComponent.scss
+
+.my-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+}

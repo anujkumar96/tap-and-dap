@@ -1,0 +1,21 @@
+
+.list-group {
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    &.active {
+      color: green;
+    }
+
+    &.inactive {
+      color: red;
+    }
+
+    button {
+      margin-left: 10px;
+    }
+  }
+}

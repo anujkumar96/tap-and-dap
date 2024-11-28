@@ -1,0 +1,53 @@
+1. Client Addition Form: This form will contain fields for entering the following information about the client:
+   - Client Name: Text input field for entering the name of the client.
+   - Client POC name: Text input field for entering the name of the point of contact for the client.
+   - Client Sales POC Name: Text input field for entering the name of the sales point of contact for the client.
+   - Client Contact Number: Text input field for entering the contact number of the client.
+   - Client Contact Email: Text input field for entering the contact email of the client.
+   - Client Description Text: Text area for entering a description of the client.
+   - Client Country Name: Dropdown or auto-complete field for selecting the country of the client.
+   - Client Currency: Dropdown or auto-complete field for selecting the currency used by the client.
+   - Client Payment Term: Dropdown or auto-complete field for selecting the payment term for the client.1. Project Addition Form: A form with fields for Project Name, Project Description, Project Tech Stack, Project Billing, and Delivery Business Unit.
+2. Revenue Forecast Form: A form with fields for various months in a given financial year, allowing the finance team to add and edit revenue forecasts for a given client project.
+3. Collection Forecast Form: A form with fields for various months in a given financial year, allowing the finance team to add and edit collection forecasts for a given client project.
+4. Revenue Actuals Form: A form with fields for various months in a given financial year, allowing the finance team to add and edit revenue actuals for a given client project.
+5. Collection Actuals Form: A form with fields for various months in a given financial year, allowing the finance team to add and edit collection actuals for a given client project.
+6. Notes Section: A section where the finance team can add text notes on a month's value of revenue/collection for forecasted or actual value.1. Employee Form: This form will include fields for Employee Name, Employee Designation, Employee Supervisor, Employee BU, Employee Project, and Employee %Allocation to project. The finance team will be able to add and edit employee data using this form.
+
+2. Cost Form: This form will include a field for Employee Monthly Cost. The finance team will be able to add the monthly cost for each employee using this form.
+
+3. Project Alignment Form: This form will include a field for aligning the employee to a specific project. The finance team will be able to select the project for which the employee is being hired.
+
+4. LWD (Last Working Day) Form: This form will include a field for marking the LWD for any employee. The system will prompt the finance team to make the forecasted cost of the employee as zero for any duration after the LWD.
+
+5. Notes Form: This form will allow the finance team to add notes to any forecasted employee cost for any month. They will also be able to view these notes.
+
+6. BU Head Notes Form: This form will allow the BU head to view the notes for any forecasted employee cost and add additional notes if needed.1. Expense Category Form: This form will allow the finance team to add a new expense category to the system. It will include fields for entering the expense category name and description.
+
+2. Expense Category Edit Form: This form will allow the finance team to edit an existing expense category in the system. It will display the current expense category details and allow the user to make changes to the name and description.
+
+3. Expense Category Activation Toggle: This UI component will allow the finance team to toggle the active/inactive status of an existing expense category. It will display the current status and allow the user to change it by clicking on a toggle switch.
+
+4. Inactive Expense Category List: This UI component will display a list of inactive expense categories in the system. It will show the name and description of each inactive category and provide options to reactivate them.
+
+Note: These UI components are directly related to the functionality described in the user story. There may be additional UI components required for other related tasks or features.1. Expense Subcategory Form: This form will allow the finance team to add a new expense subcategory to the system. It will include fields for entering the expense subcategory name, selecting an existing expense category from a dropdown list, and providing a description for the subcategory.
+
+2. Expense Subcategory Edit Form: This form will allow the finance team to edit an existing expense subcategory in the system. It will display the current details of the subcategory and allow the user to modify the expense category and description.
+
+3. Expense Subcategory Activation Toggle: This UI component will allow the finance team to toggle the active/inactive status of an existing expense subcategory. It will display the current status of the subcategory and provide a button or switch to change the status.
+
+4. Expense Subcategory Reactivation Button: This UI component will allow the finance team to reactivate an existing inactive expense subcategory. It will be displayed only for inactive subcategories and provide a button to reactivate the subcategory.1. Employee List: A list of employees existing in the system, filtered by the Business Unit of the BU Head. This component allows the BU Head to select employees to allocate to projects.
+2. Project List: A list of projects within the Business Unit. This component allows the BU Head to select the project to allocate resources to.
+3. Start Date: A date picker component to select the start date of the allocation.
+4. End Date: A date picker component to select the end date of the allocation.
+5. Role: A dropdown component to select the role of the allocated resource.
+6. Allocation Percentage: A numeric input component to specify the percentage allocation of the resource to the project.
+7. Edit Allocation: A button or link component to edit the allocation of a resource to a project. This component is accessible to both the BU Head and the Finance Team.
+8. Save Allocation: A button component to save the allocation details after editing.
+9. Delete Allocation: A button or link component to delete the allocation of a resource from a project. This component is accessible to both the BU Head and the Finance Team.1. Resource Cost Forecast Dashboard: A dashboard that displays the forecasted resource cost for different client/project combinations. It should provide filters to select a specific client and project combination.
+2. Client/Project Selection Dropdown: A dropdown component that allows the finance team to select a specific client and project combination for which they want to see the resource cost forecast.
+3. Resource Cost Forecast Table: A table component that displays the forecasted resource cost for the selected client/project combination. It should include columns for employee name, project name, and forecasted cost.1. Expense Cost Forecast Dashboard: This UI component will display the forecasted expense cost for different Category/Subcategory combinations for all months in a financial year. It will provide an overview of the forecasted expenses at a project or BU level.
+
+2. Expense Cost Forecast Editor: This UI component will allow the finance team to view and edit the forecasted expense cost for any Category/Subcategory combination for all months in a financial year. It will provide a user-friendly interface to make changes to the forecasted expenses.
+
+3. Expense Roll-up Summary: This UI component will display the rolled-up expenses in various categories/subcategories at the project or BU level. It will provide a consolidated view of the monthly expense forecast under a specific BU, making it easier for the finance team to analyze and track expenses.

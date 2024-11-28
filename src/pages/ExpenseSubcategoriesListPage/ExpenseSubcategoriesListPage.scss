@@ -1,0 +1,15 @@
+
+.expense-subcategories-list-page {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .list-group {
+    margin-top: 20px;
+
+    .list-group-item {
+      cursor: pointer;
+    }
+  }
+}

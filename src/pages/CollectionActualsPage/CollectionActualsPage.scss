@@ -1,0 +1,26 @@
+
+// Import necessary dependencies
+@import '~bootstrap/scss/bootstrap';
+
+// Define custom styles for CollectionActualsPage component
+.collection-actuals-page {
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  table {
+    th {
+      background-color: #f8f9fa;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+
+    .btn-danger {
+      margin-right: 10px;
+    }
+  }
+}

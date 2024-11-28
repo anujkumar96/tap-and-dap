@@ -1,0 +1,27 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+div {
+  margin: 20px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+}
+
+button {
+  margin-top: 10px;
+}

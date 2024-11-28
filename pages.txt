@@ -1,0 +1,81 @@
+1. Client Addition Form: This page will contain a form where the finance team can enter the details of a new client. It will include fields such as Client Name, Client POC name, Client Sales POC Name, Client Contact Number, Client Contact Email, Client Description Text, Client Country Name, Client Currency, and Client Payment Term.
+
+2. Client List Page: This page will display a list of all the clients that have been added to the system. It will show basic information about each client, such as their name and country.
+
+3. Client Details Page: This page will provide more detailed information about a specific client. It will display all the information entered in the Client Addition Form, along with any additional details or notes about the client.
+
+4. Client Edit Page: This page will allow the finance team to edit the information of a specific client. It will display the current information of the client in a form, which can be updated and saved.
+
+5. Client Search Page: This page will allow the finance team to search for specific clients based on different criteria, such as client name or country. The search results will be displayed in a list format.
+
+6. Client Delete Confirmation Page: This page will be displayed when the finance team tries to delete a client. It will ask for confirmation before permanently deleting the client from the system.
+
+Note: These pages are specific to the functionality of adding clients and managing client information. There may be additional pages in the overall application for other features and functionalities.1. Project Addition Form: This page will allow the finance team to add a new project for a client. It will include fields such as Project Name, Project Description, Project Tech Stack, Project Billing (T&M Monthly or Milestone based), and Delivery Business Unit (Delivery BU).
+
+2. Revenue Forecast Form: This page will allow the finance team to add or edit revenue forecasts for various months in a given financial year for a specific client project. The system will only allow editing for the current and future months.
+
+3. Collection Forecast Form: This page will allow the finance team to add or edit collection forecasts for various months in a given financial year for a specific client project. The system will only allow editing for the current and future months.
+
+4. Revenue Actuals Form: This page will allow the finance team to add or edit revenue actuals for various months in a given financial year for a specific client project. The system will only allow editing for the current and future months.
+
+5. Collection Actuals Form: This page will allow the finance team to add or edit collection actuals for various months in a given financial year for a specific client project. The system will only allow editing for the current and future months.
+
+6. Notes Form: This page will allow the finance team to add text notes on a month's value of revenue/collection for forecasted or actual value. This will provide additional context or information related to the revenue and collection data.1. Employee List Page: This page will display a list of all employees in the system. It will show the employee name, designation, supervisor, BU, project, % allocation to project, and monthly cost. The finance team will be able to add and edit employee data from this page.
+
+2. Add Employee Page: This page will allow the finance team to add a new employee to the system. It will have fields to enter the employee name, designation, supervisor, BU, project, % allocation to project, and monthly cost.
+
+3. Edit Employee Page: This page will allow the finance team to edit the details of an existing employee. It will have fields to modify the employee name, designation, supervisor, BU, project, % allocation to project, and monthly cost.
+
+4. Employee Notes Page: This page will display any notes added to the forecasted employee cost for a specific month. The finance team will be able to add and view notes for each employee.
+
+5. BU Head Notes Page: This page will allow the BU head to view the notes added to the forecasted employee cost by the finance team. The BU head will also be able to add additional notes.
+
+Note: The above pages are specific to the functionality described in the user story. There may be additional pages required for other functionalities not mentioned in the user story.1. Expense Category List Page: This page will display a list of all existing expense categories in the system. It will show the expense category name, description, and active/inactive status. The finance team can view, edit, and activate/inactivate expense categories from this page.
+
+2. Add Expense Category Page: This page will allow the finance team to add a new expense category to the system. It will have input fields for expense category name and description. The team can submit the form to create a new expense category.
+
+3. Edit Expense Category Page: This page will allow the finance team to edit an existing expense category. It will display the current expense category name and description, and allow the team to modify them. The team can submit the form to update the expense category.
+
+Note: The above pages assume that there is a navigation menu or sidebar to access these pages within the application.1. Expense Subcategories List Page: This page will display a list of all the expense subcategories in the system. It will show information such as the expense subcategory name, expense category it is linked to, and whether it is active or inactive. The finance team can view, edit, and activate/inactivate expense subcategories from this page.
+
+2. Add Expense Subcategory Page: This page will allow the finance team to add a new expense subcategory to the system. It will have fields to enter the expense subcategory name, select the expense category it should be linked to (from a dropdown list of existing expense categories), and provide a description for the expense subcategory.
+
+3. Edit Expense Subcategory Page: This page will allow the finance team to edit an existing expense subcategory. It will display the current information of the expense subcategory and allow the team to modify the expense subcategory name, linked expense category, and description.
+
+4. Activate/Inactivate Expense Subcategory Page: This page will allow the finance team to activate or inactivate an existing expense subcategory. It will display the current status of the expense subcategory and provide an option to change its status.
+
+Note: These pages may require additional components such as buttons, forms, and tables to support the functionality described in the user story.1. Project Allocation Dashboard: This page will display a list of all projects within the Business Unit. It will show basic information such as project name, start and end dates, and the number of allocated resources. The BU head can navigate to individual project pages from here.
+
+2. Project Details Page: This page will provide detailed information about a specific project, including its name, start and end dates, and allocated resources. The BU head can add or remove employees from the project and edit their allocation details.
+
+3. Employee Allocation Page: This page will display a list of all employees within the Business Unit. The BU head can select an employee and allocate them to a specific project. The page will include fields for start and end dates, role, and percentage allocation.
+
+4. Edit Allocation Page: This page will allow the BU head or Finance Team to edit the allocation details of a resource for any project. It will display the current allocation information and allow for changes to be made, such as updating the start and end dates, role, or percentage allocation.
+
+5. Allocation History Page: This page will show the allocation history for a specific employee or project. It will display a timeline of past and current allocations, including the project name, start and end dates, role, and percentage allocation.
+
+6. Resource Search Page: This page will allow the BU head or Finance Team to search for specific employees or projects. It will include filters and search criteria to easily find the desired resource.
+
+7. Resource Management Page: This page will provide an overview of all allocated resources within the Business Unit. It will display a list of employees and their current project allocations, including basic information such as project name, start and end dates, role, and percentage allocation. The BU head can make changes to allocations from this page.
+
+8. Project Management Page: This page will provide an overview of all projects within the Business Unit. It will display basic information such as project name, start and end dates, and the number of allocated resources. The BU head can make changes to project details and allocations from this page.
+
+9. Notifications Page: This page will display notifications related to resource allocations. It will notify the BU head or Finance Team of any changes or updates made to allocations, such as new allocations, edits, or removals.
+
+10. Reports Page: This page will generate reports on resource allocations within the Business Unit. It will provide insights and analytics on project allocations, employee allocations, and overall resource management.1. Resource Cost Forecast Dashboard: This page will display an overview of the forecasted resource costs for different client/project combinations. It will provide a high-level summary of the forecasted costs and allow the finance team to drill down into specific combinations for more detailed information.
+
+2. Client/Project Selection Page: This page will allow the finance team to select a specific client and project combination for which they want to view the resource cost forecast. It will provide a dropdown or search functionality to easily find and select the desired combination.
+
+3. Resource Cost Forecast Details Page: This page will display the detailed forecasted resource costs for the selected client/project combination. It will show the cost breakdown by individual employees and provide additional information such as their roles, hourly rates, and allocated hours. The finance team can use this page to analyze and review the forecasted costs in more detail.
+
+4. Resource Allocation Page: This page may not be directly related to the user story, but it is essential for the functionality. It allows the resource allocation team to assign employees to specific projects and track their allocated hours. The forecasted resource costs are calculated based on the information entered on this page.
+
+Note: The above list assumes that the system already has existing pages for managing clients, projects, and employees. If not, additional pages may be required for those functionalities as well.1. Forecast Expense Cost Dashboard: This page will provide an overview of the forecasted expense costs for different categories/subcategories at a project or BU level. It will display the total forecasted expense cost for each month in a FY.
+
+2. Expense Cost Forecast Editor: This page will allow the finance team to view and edit the forecasted expense costs for any Category/Subcategory combination. They will be able to select a specific month in a FY and update the forecasted cost for the selected combination.
+
+3. Category/Subcategory Selection Page: This page will provide a list of all available categories and subcategories. The finance team will be able to select a specific combination to view the forecasted expense costs for that combination.
+
+4. Project/BU Selection Page: This page will allow the finance team to select a specific project or BU to view the forecasted expense costs for that specific entity. They will be able to see the rolled-up monthly expense forecast under the selected project or BU.
+
+5. Monthly Expense Forecast Page: This page will display the rolled-up monthly expense forecast for a specific project or BU. It will show the forecasted expense costs for different categories/subcategories for each month in a FY.

@@ -1,0 +1,155 @@
+1. API: /clients/add
+   Description: This API is used to add a new client to the system. It accepts the necessary client information such as client name, client POC name, client sales POC name, client contact number, client contact email, client description text, client country name, client currency, and client payment term.
+
+2. API: /clients/getAll
+   Description: This API is used to retrieve all the clients stored in the system. It returns a list of client objects containing their respective information.
+
+3. API: /clients/getById/{clientId}
+   Description: This API is used to retrieve a specific client by its unique identifier. It accepts the client ID as a parameter and returns the client object with all its information.
+
+4. API: /clients/update/{clientId}
+   Description: This API is used to update the information of a specific client. It accepts the client ID as a parameter and the updated client information in the request body.
+
+5. API: /clients/delete/{clientId}
+   Description: This API is used to delete a specific client from the system. It accepts the client ID as a parameter and removes the corresponding client from the database.1. API: AddProject
+   Description: This API is used to add a new project for a client. It accepts parameters such as client project name, project location country, project payment currency, project payment term, and monthly revenue forecast in INR.
+
+2. API: EditProject
+   Description: This API is used to edit the details of an existing project. It allows the finance team to update fields like project name, project description, project tech stack, project billing, and delivery business unit.
+
+3. API: AddRevenueForecast
+   Description: This API is used to add revenue forecasts for various months in a given financial year for a specific client project. It accepts parameters such as the month, year, client project ID, and the forecasted revenue amount.
+
+4. API: EditRevenueForecast
+   Description: This API is used to edit the revenue forecast for a specific month in a given financial year for a client project. It allows the finance team to update the forecasted revenue amount for the current and future months.
+
+5. API: AddCollectionForecast
+   Description: This API is used to add collection forecasts for various months in a given financial year for a specific client project. It accepts parameters such as the month, year, client project ID, and the forecasted collection amount.
+
+6. API: EditCollectionForecast
+   Description: This API is used to edit the collection forecast for a specific month in a given financial year for a client project. It allows the finance team to update the forecasted collection amount for the current and future months.
+
+7. API: AddRevenueActuals
+   Description: This API is used to add revenue actuals for various months in a given financial year for a specific client project. It accepts parameters such as the month, year, client project ID, and the actual revenue amount.
+
+8. API: EditRevenueActuals
+   Description: This API is used to edit the revenue actuals for a specific month in a given financial year for a client project. It allows the finance team to update the actual revenue amount for the current and future months.
+
+9. API: AddCollectionActuals
+   Description: This API is used to add collection actuals for various months in a given financial year for a specific client project. It accepts parameters such as the month, year, client project ID, and the actual collection amount.
+
+10. API: EditCollectionActuals
+    Description: This API is used to edit the collection actuals for a specific month in a given financial year for a client project. It allows the finance team to update the actual collection amount for the current and future months.
+
+11. API: AddTextNote
+    Description: This API is used to add text notes on a month's value of revenue/collection for forecasted or actual value. It accepts parameters such as the month, year, client project ID, note type (forecasted or actual), and the text note.
+
+Note: The numbering of the APIs is for reference purposes only and does not indicate any specific order or sequence.1. API: /employees/add
+   Description: This API is used to add a new employee to the system. It accepts parameters such as employee name, designation, supervisor, BU, project, % allocation to project, and monthly cost.
+
+2. API: /employees/edit
+   Description: This API is used to edit the details of an existing employee in the system. It accepts parameters such as employee ID and the updated information for the employee.
+
+3. API: /employees/markLWD
+   Description: This API is used to mark the Last Working Day (LWD) for an employee. It accepts parameters such as employee ID and the LWD date. After marking the LWD, the system will prompt the user to set the forecasted cost of the employee as zero for any duration after the LWD.
+
+4. API: /employees/addNote
+   Description: This API is used to add notes to the forecasted employee cost for a specific month. It accepts parameters such as employee ID, month, and the note to be added.
+
+5. API: /employees/viewNotes
+   Description: This API is used to view the notes associated with the forecasted employee cost for a specific month. It accepts parameters such as employee ID and month.
+
+6. API: /employees/addAdditionalNote
+   Description: This API is used by the BU head to add additional notes to the forecasted employee cost for a specific month. It accepts parameters such as employee ID, month, and the additional note to be added.1. API: /expense-categories/add
+   Description: This API is used to add a new expense category to the system. It accepts parameters such as Expense Category and Expense Category Description.
+
+2. API: /expense-categories/edit
+   Description: This API is used to edit an existing expense category in the system. It accepts parameters such as Expense Category ID, Expense Category, and Expense Category Description.
+
+3. API: /expense-categories/activate
+   Description: This API is used to mark an existing expense category as active in the system. It accepts parameters such as Expense Category ID.
+
+4. API: /expense-categories/deactivate
+   Description: This API is used to mark an existing expense category as inactive in the system. It accepts parameters such as Expense Category ID.
+
+5. API: /expense-categories/reactivate
+   Description: This API is used to reactivate an existing inactive expense category in the system. It accepts parameters such as Expense Category ID.1. API: /expense-subcategories/add
+   Description: This API is used to add a new expense subcategory to the system. It accepts parameters such as Expense Subcategory, Expense Category, and Expense Subcategory Description.
+
+2. API: /expense-subcategories/edit
+   Description: This API is used to edit an existing expense subcategory in the system. It accepts parameters such as Expense Subcategory ID, Expense Subcategory, Expense Category, and Expense Subcategory Description.
+
+3. API: /expense-subcategories/activate
+   Description: This API is used to activate an existing inactive expense subcategory in the system. It accepts parameters such as Expense Subcategory ID.
+
+4. API: /expense-subcategories/deactivate
+   Description: This API is used to deactivate an existing active expense subcategory in the system. It accepts parameters such as Expense Subcategory ID.
+
+5. API: /expense-categories/get-all
+   Description: This API is used to retrieve all the existing expense categories in the system. It does not require any parameters.
+
+6. API: /expense-subcategories/get-all
+   Description: This API is used to retrieve all the existing expense subcategories in the system. It does not require any parameters.
+
+7. API: /expense-subcategories/get-by-category
+   Description: This API is used to retrieve all the expense subcategories linked to a specific expense category. It accepts parameters such as Expense Category ID.
+
+8. API: /expense-subcategories/get-by-id
+   Description: This API is used to retrieve a specific expense subcategory by its ID. It accepts parameters such as Expense Subcategory ID.1. GET /business-units/{id}/employees
+   - Description: Retrieves a list of employees under a specific business unit.
+2. GET /business-units/{id}/projects
+   - Description: Retrieves a list of projects within a specific business unit.
+3. POST /business-units/{id}/projects/{projectId}/employees/{employeeId}/allocations
+   - Description: Creates a new allocation for an employee to a project within a specific business unit.
+4. PUT /business-units/{id}/projects/{projectId}/employees/{employeeId}/allocations/{allocationId}
+   - Description: Updates an existing allocation for an employee to a project within a specific business unit.
+5. DELETE /business-units/{id}/projects/{projectId}/employees/{employeeId}/allocations/{allocationId}
+   - Description: Deletes an allocation for an employee from a project within a specific business unit.
+6. GET /business-units/{id}/projects/{projectId}/employees/{employeeId}/allocations
+   - Description: Retrieves the allocation details for an employee in a specific project within a business unit.
+7. GET /business-units/{id}/projects/{projectId}/allocations
+   - Description: Retrieves a list of allocations for all employees in a specific project within a business unit.
+8. GET /business-units/{id}/projects/{projectId}/allocations/{allocationId}
+   - Description: Retrieves the details of a specific allocation for an employee in a project within a business unit.1. GET /resourceAllocation: This API retrieves the resource allocation data from the system, including the projects that employees are aligned to.
+2. GET /projectCostForecast: This API calculates and returns the forecasted cost of resources for a specific project.
+3. GET /clientProjectCombination: This API retrieves the list of available client and project combinations for selection.
+4. GET /forecastedResourceCost: This API retrieves the forecasted cost of resources for a selected client and project combination.
+5. POST /resourceAllocation: This API allows the finance team to update the resource allocation data in the system, which will trigger the recalculation of forecasted resource costs.1. GET /expenses/forecast
+   - Description: Retrieves the forecasted expenses for all months in a fiscal year.
+   - Parameters: None
+   - Response: List of expense objects with details such as category, subcategory, month, and cost.
+
+2. POST /expenses/forecast
+   - Description: Creates a new forecasted expense for a specific category and subcategory combination.
+   - Parameters: Category, subcategory, month, and cost.
+   - Response: Success message or error if the creation fails.
+
+3. PUT /expenses/forecast/{expenseId}
+   - Description: Updates the forecasted expense for a specific expense ID.
+   - Parameters: Expense ID, category, subcategory, month, and cost.
+   - Response: Success message or error if the update fails.
+
+4. GET /expenses/forecast/{category}/{subcategory}
+   - Description: Retrieves the forecasted expenses for a specific category and subcategory combination.
+   - Parameters: Category and subcategory.
+   - Response: List of expense objects with details such as month and cost.
+
+5. GET /expenses/forecast/{bu}
+   - Description: Retrieves the forecasted expenses for a specific business unit (BU).
+   - Parameters: Business unit (BU) ID.
+   - Response: List of expense objects with details such as category, subcategory, month, and cost.
+
+6. GET /expenses/forecast/{project}
+   - Description: Retrieves the forecasted expenses for a specific project.
+   - Parameters: Project ID.
+   - Response: List of expense objects with details such as category, subcategory, month, and cost.
+
+7. GET /expenses/forecast/{bu}/{month}
+   - Description: Retrieves the forecasted expenses for a specific business unit (BU) and month.
+   - Parameters: Business unit (BU) ID and month.
+   - Response: List of expense objects with details such as category, subcategory, and cost.
+
+8. GET /expenses/forecast/{project}/{month}
+   - Description: Retrieves the forecasted expenses for a specific project and month.
+   - Parameters: Project ID and month.
+   - Response: List of expense objects with details such as category, subcategory, and cost.

@@ -1,0 +1,22 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+button[type='submit'] {
+  margin-top: 1rem;
+}

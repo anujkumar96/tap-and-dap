@@ -1,0 +1,12 @@
+@import '~bootstrap/scss/bootstrap';
+.parent-container {
+    display: flex;
+    justify-content: center; // Horizontally center
+    align-items: center;     // Vertically center
+    height: 100vh;           // Set the height as needed
+  
+    // Individual child div styles
+    div {
+      margin: 10px;           // Add margin between child divs
+    }
+  }

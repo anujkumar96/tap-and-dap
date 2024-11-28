@@ -1,0 +1,23 @@
+
+// Import necessary dependencies
+@import '~bootstrap/scss/bootstrap';
+
+// Define custom styles for ResourceCostTable component
+.table {
+  margin-top: 20px;
+  width: 100%;
+
+  th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  td {
+    input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+    }
+  }
+}

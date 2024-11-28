@@ -1,0 +1,19 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+
+  th {
+    background-color: #f8f9fa;
+  }
+
+  td {
+    text-align: center;
+  }
+}

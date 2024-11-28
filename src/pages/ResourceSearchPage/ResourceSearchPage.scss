@@ -1,0 +1,17 @@
+
+.resource-search-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-control {
+    margin-right: 10px;
+  }
+}
