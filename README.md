@@ -1,7 +1,7 @@
 # Finance Forecast Project
 
-This repository contains the **Finance Forecast Project**, which was generated using AI and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This repository contains the **Finance Forecast Project**, which was generated using AI and uses React, Bootstrap and React Bootstrap
+ 
 ## Project Features
 - **Side Navigation Bar**: Navigate seamlessly between Employee, Client, and Project pages.
 - **Management Functionality**: Add, remove, or edit records for Employees, Clients, and Projects. These entities are interrelated.
