@@ -1,6 +1,6 @@
 # Finance Forecast Project
 
-This repository contains the **Finance Forecast Project**, which was generated using AI and uses React, Bootstrap and React Bootstrap
+This repository contains the **Finance Forecast Project**, which uses React, Bootstrap and React Bootstrap.
  
 ## Project Features
 - **Side Navigation Bar**: Navigate seamlessly between Employee, Client, and Project pages.
